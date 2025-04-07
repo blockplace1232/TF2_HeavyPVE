@@ -34,7 +34,8 @@ Plugin is configured inside the `configs/tf_engipve.cfg` directory.
 |Cosmetics|A list of cosmetics equipped on the bots|
 
 ## Installation Guide
-## WARNING: COPY EVERYTHING FROM THE DEPENDECIES PAGES EXCEPT FOR README.MD
+
+WARNING: COPY EVERYTHING FROM THE DEPENDENCIES PAGES EXCEPT FOR README.MD
 1. Install Sourcemod and Metamod.
 2. Copy dependencies into their respetive directories `tf/addons/sourcemod`
 3. Grab the files from this plugin and copy them too their directories (same as above)
