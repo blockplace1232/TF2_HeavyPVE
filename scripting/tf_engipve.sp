@@ -23,15 +23,15 @@
 #define GOLDEN_PAN_CHANCE	 1
 
 #define TFTeam_Humans		 TFTeam_Blue
-#define TFTeam_Bots			 TFTeam_Red
+#define TFTeam_Bots		 TFTeam_Red
 
 public Plugin myinfo =
 {
-	name		= "[TF2] Engineer PVE",
+	name		= "[TF2] Heavy PVE",
 	author		= "Moonly Days, Uncle Dane",
-	description = "Engineer PVE",
+	description = "Heavy PVP",
 	version		= PLUGIN_VERSION,
-	url			= "https://github.com/MoonlyDays/TF2_EngineerPVE"
+	url			= "https://github.com/blockplace1232/TF2_HeavyPVE"
 };
 
 /**
