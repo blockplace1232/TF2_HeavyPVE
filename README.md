@@ -1,6 +1,6 @@
-# One Thousand Engineers
+# One Gazillion Heavies
 
-A special PVE gamemode designed by Uncle Dane for Uncletopia servers. The BLUE team consisting of up to 12 human players is faced with an army of Engineer Bots on RED team. The goal of the gamemode is to fight through the defenses of the Engineer bots and win the round. Best played on Payload and A/D maps.  
+A fork of Moonlyday's One Thousand Engineers Plugin, instead of Engineers however, the bots are Heavies.
 
 ## ConVars
 - `sm_engipve_allow_respawnroom_build` (default: 1) - allows human engineers to build in spawnrooms.
@@ -15,6 +15,8 @@ A special PVE gamemode designed by Uncle Dane for Uncletopia servers. The BLUE t
 
 ## Requires
 
+- Sourcemod (https://www.sourcemod.net/)
+- Metamod: Source (https://metamodsource.net/)
 - TF2Attributes (https://github.com/FlaminSarge/tf2attributes)
 - TF2 Econ Data (https://github.com/nosoop/SM-TFEconData)
 - TF2Items (https://github.com/asherkin/TF2Items)
@@ -31,8 +33,18 @@ Plugin is configured inside the `configs/tf_engipve.cfg` directory.
 |Weapons|A list of weapons that bots will use, defined as a list of items per slot. Upon spawn, bots will pick a random one for each slot|
 |Cosmetics|A list of cosmetics equipped on the bots|
 
+## Installation Guide
+## WARNING: COPY EVERYTHING FROM THE DEPENDECIES PAGES EXCEPT FOR README.MD
+1. Install Sourcemod and Metamod.
+2. Copy dependencies into their respetive directories `tf/addons/sourcemod`
+3. Grab the files from this plugin and copy them too their directories (same as above)
+4. Go into `tf/addons/sourcemod/scripting` and run the compile script then copy any compiled .smx's too `sourcemod/plugins`
+
 ## Update History
 
+### 1.0.0 
+- Changed Config with Heavies in mind.
+  
 ### 0.8.6
 - Spy cap blocking feature doesn't apply in Payload mode.
 
